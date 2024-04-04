@@ -14,4 +14,4 @@ spec:
             email: ryaremenko99@gmail.com
             apiTokenSecretRef:
               name: cloudflare-api-token
-              key: api-token
+              key: api-token2
