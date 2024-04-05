@@ -9,4 +9,5 @@ spec:
     name: letsencrypt-staging-wildcard
     kind: ClusterIssuer
   dnsNames:
+    - 'sutty.shop'
     - '*.sutty.shop'
