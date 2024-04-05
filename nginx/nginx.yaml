@@ -54,8 +54,8 @@ metadata:
 spec:
   tls:
     - hosts:
-        - test.sutty.shop
-      secretName: app-tls
+        - "*.sutty.shop"
+      secretName: letsencrypt-staging-wildcard
   rules:
     - host: test.sutty.shop
       http:
