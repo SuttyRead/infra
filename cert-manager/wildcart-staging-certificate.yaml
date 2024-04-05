@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: wildcard-cert
+  name: wildcard-staging-cert
   namespace: cert-manager
 spec:
   secretName: wildcard-staging-cert-tls
