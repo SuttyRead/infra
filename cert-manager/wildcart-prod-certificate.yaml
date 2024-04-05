@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: wildcard-prod-cert-tls
   issuerRef:
-    name: letsencrypt-staging-wildcard
+    name: letsencrypt-prod-wildcard
     kind: ClusterIssuer
   dnsNames:
     - 'sutty.shop'
