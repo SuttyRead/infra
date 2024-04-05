@@ -55,7 +55,7 @@ spec:
   tls:
     - hosts:
         - "*.sutty.shop"
-      secretName: letsencrypt-staging-wildcard
+      secretName: letsencrypt-prod-wildcard
   rules:
     - host: test.sutty.shop
       http:
